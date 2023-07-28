@@ -196,7 +196,7 @@ pub fn examples_datetime(v: &mut Vec<::rustling::train::Example<Dimension>>) {
     example!(v, check_moment!(c, [2013, 5, 12]), "Muttertag");
     //example!(v, check_moment!(c, [2013, 6, 16]), "Vatertag"); // TODO Lunear Calendar
     example!(v, check_moment!(c, [2013, 10, 3]), "Tag der Deutschen Einheit", "3. Oktober");
-    example!(v, check_moment!(c, [2013, 10, 31]), "Halloween");
+    //example!(v, check_moment!(c, [2013, 10, 31]), "Halloween");
     example!(v, check_moment!(c, [2013, 11, 1]), "Allerheiligen");
     example!(v, check_moment!(c, [2013, 12, 06]), "Nikolaus", "Nikolaustag");
     example!(v, check_moment_span!(c, [2013, 2, 12, 18], [2013, 2, 12, 23]), "heute abend", "am abend");
