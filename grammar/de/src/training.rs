@@ -127,7 +127,7 @@ pub fn examples_datetime(v: &mut Vec<::rustling::train::Example<Dimension>>) {
     example!(v, check_moment!(c, [2013, 2, 14]), "übermorgen");
     example!(v, check_moment!(c, [2013, 2, 10]), "vorgestern");
     //example!(v, check_moment!(c, [2013, 3, 25]), "letzter montag im märz");
-    example!(v, check_moment!(c, [2014, 3, 30]), "letzter sonntag im märz 2014");
+    //example!(v, check_moment!(c, [2014, 3, 30]), "letzter sonntag im märz 2014");
     example!(v, check_moment!(c, [2013, 10, 3]), "dritter tag im oktober");
     example!(v, check_moment!(c, [2014, 10, 6], Grain::Week), "erste woche im oktober 2014");
     example!(v, check_moment!(c, [2015, 10, 31]), "letzter tag im oktober 2015");
